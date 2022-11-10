@@ -10,7 +10,7 @@ gem "rails", "~> 7.0.3"
 gem "sprockets-rails"
 
 # simplecov for test coverage
-gem 'simplecov', require: false, group: :test
+gem 'simplecov', require: false
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
