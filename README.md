@@ -1,5 +1,7 @@
 # README
 
+This is an in progress project for my Into to Software Engineering course. The project entails building a portfolio website in Ruby on Rails with rspec for testing.
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
