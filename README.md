@@ -1,26 +1,13 @@
 # README
 
-This is an in progress project for my Into to Software Engineering course. The project entails building a portfolio website in Ruby on Rails with rspec for testing.
+This is an in progress project for my Into to Software Engineering course. The project entails building a portfolio website in Ruby on Rails.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Using Ruby 3.2 with Rails 7, hosted in a docker container.
 
-Things you may want to cover:
+Rspec and caybara are being utilized for testing.
 
-* Ruby version
+CircleCI is used to provide a continuous integration pipeline.
 
-* System dependencies
+Heroku is being used to host the application.
 
-* Configuration
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
