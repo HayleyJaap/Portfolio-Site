@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is an in progress project for my Into to Software Engineering course. The project entails building a portfolio website in Ruby on Rails.
 
-Things you may want to cover:
+Using Ruby 3.2 with Rails 7, hosted in a docker container.
 
-* Ruby version
+Rspec and caybara are being utilized for testing.
 
-* System dependencies
+CircleCI is used to provide a continuous integration pipeline.
 
-* Configuration
+Heroku is being used to host the application.
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
