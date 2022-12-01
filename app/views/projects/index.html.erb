@@ -11,7 +11,7 @@
 
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron">
-  <div class="container">
+  <div class="container p-5 my-5 bg-success text-white">
     <h1 class="display-3">About this site</h1>
     <p>This portfolio site was developed by Hayley Jaap for CS3300. </p>
   </div>
@@ -19,13 +19,16 @@
 
 <div class="container">
   <!-- Example row of columns -->
-  <h2 class="display-3">Projects</h2>
+  <h2 class="display-3 text-center">Projects</h2>
     <div class="row">
     <% @projects.each do |project|  %>
-      <div class="col-md-4" style="border: 2px solid black;">
-        <%= render project %>
+      <div class="col-md-4 bg-success text-white" style="border: 5px solid white;">
+        <h1 class="display-5"> <%= project.title %> </h1>
         <p>
-          <%= link_to "Show this project", project, class: "btn btn-primary" %>
+          <%= project.description %>
+        </p>
+        <p>
+          <%= link_to "Show this project", project, class: "btn btn-dark" %>
         </p>
       </div>
     <% end %>
