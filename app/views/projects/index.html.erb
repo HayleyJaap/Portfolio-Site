@@ -20,20 +20,23 @@
 <div class="container">
   <!-- Example row of columns -->
   <h2 class="display-3 text-center">Projects</h2>
-    <div class="row">
+  <div class="card-deck">
+    <div class="row mt-0">
     <% @projects.each do |project|  %>
-      <div class="col-md-4 bg-success text-white" style="border: 5px solid white;">
-        <h1 class="display-5"> <%= project.title %> </h1>
-        <p>
-          <%= project.description %>
-        </p>
-        <p>
-          <%= link_to "Show this project", project, class: "btn btn-dark" %>
-        </p>
+      <div class="col-md-4">
+      <div class="card p-3 bg-success text-white border-dark" style="width: 25rem; height: 22rem;">
+      <div class="card-body">
+        <h4 class="card-title"> <%= project.title %> </h4>
+        <h4 class="card-title"> <%= link_to "Show this project", project, class: "btn btn-dark" %> </h4>
+        <p class="card-text"> <%= project.description %> </p>
+      </div>
+      </div>
       </div>
     <% end %>
+    </div>
   </div>
 </div> 
 <!-- /container -->
 
 </body>
+
