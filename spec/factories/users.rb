@@ -7,10 +7,10 @@ FactoryBot.define do
 end
 
 def sign_in(user)
-  click_on "Sign in"
+  click_on "Sign In"
   within("form") do
     fill_in "Email", with: "test@gmail.com"
     fill_in "Password", with: "test123"
   end
-  click_button "Log in"
+  click_button "Sign in"
 end
